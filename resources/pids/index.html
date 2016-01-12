@@ -12,7 +12,8 @@ description: Documentation about the different nodes, what they do and how to tr
 </p>
 <br>
 
-{% for p in site.pages | sort: 'title' %}
+{% assign sortedPages = site.pages | sort: 'title' %}
+{% for p in sortedPages %}
   {% if p.parent == 'pids' %}
     <a href="{{ p.url | prepend: site.baseurl }}">
       <h3>{{p.title}}</h3>

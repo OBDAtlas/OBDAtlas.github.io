@@ -18,10 +18,14 @@ description: Documentation about the different nodes, what they do and how to tr
     <a href="{{ p.url | prepend: site.baseurl }}">
       <h3>{{p.title}}</h3>
     </a>
-    {% if p.description %}
     <p>
-      {{ p.description }}
+      {% if p.description %}
+        {{ p.description }}
+        <br>
+      {% endif %}
+      <a href="{{ p.url | prepend: site.baseurl }}">
+        Read more
+      </a>
     </p>
-    {% endif %}
   {% endif %}
 {% endfor %}

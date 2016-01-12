@@ -1,0 +1,26 @@
+---
+layout: page
+title: PIDS
+permalink: /resources/pids/
+parent: resources
+description: Documentation about the different nodes, what they do and how to translate their response in the OBDII system that you can query using our Atlas OBD app (or any other OBD app).
+---
+
+<h1 class="page-heading">PIDs</h1>
+<p>
+  All pids are divided into modes which are used for different things.
+</p>
+<br>
+
+{% for p in site.pages | sort: 'title' %}
+  {% if p.parent == 'pids' %}
+    <a href="{{ p.url | prepend: site.baseurl }}">
+      <h3>{{p.title}}</h3>
+    </a>
+    {% if p.description %}
+    <p>
+      {{ p.description }}
+    </p>
+    {% endif %}
+  {% endif %}
+{% endfor %}

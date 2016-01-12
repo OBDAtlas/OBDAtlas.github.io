@@ -1,0 +1,26 @@
+---
+title: Mode 02
+layout: page
+parent: pids
+permalink: resources/pids/02.html
+description: Mode 02 represents freeze frame data from the OBDII diagnostics port collected by your car together at the occurrance of a trouble code.
+---
+
+<p>
+  Mode 02 represents freeze frame data from the OBDII diagnostics port collected
+  by your car when an emissions related fault occurs. The freeze frame data can
+  will replaced if another trouble code with higher priority occurs.
+  <br><br>
+  Listing the same pids as for Mode 01 below.
+</p>
+
+{% for p in site.pages | sort: 'title' %}
+  {% if p.mode == 01 %}
+    <a href="{{ p.url | prepend: site.baseurl }}">
+      <h4 style="margin:0;">{{p.title}}</h4>
+    </a>
+    {% if p.description %}
+      {{ p.description }}
+    {% endif %}
+  {% endif %}
+{% endfor %}

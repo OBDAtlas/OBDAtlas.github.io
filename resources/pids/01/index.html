@@ -1,0 +1,21 @@
+---
+title: Mode 01
+layout: page
+parent: pids
+permalink: resources/pids/01.html
+description: Mode 01 represents real time data from the OBDII diagnostics port. You can get things like the current speed, rpm, etc.
+---
+<p>
+  {{ page.description }}
+</p>
+
+{% for p in site.pages | sort: 'title' %}
+  {% if p.mode == 01 %}
+    <a href="{{ p.url | prepend: site.baseurl }}">
+      <h4 style="margin:0;">{{p.title}}</h4>
+    </a>
+    {% if p.description %}
+      {{ p.description }}
+    {% endif %}
+  {% endif %}
+{% endfor %}

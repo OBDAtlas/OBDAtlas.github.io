@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="112px" height="115px" viewBox="0 0 112 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>OBD device</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home" sketch:type="MSArtboardGroup" transform="translate(-964.000000, -703.000000)">
+            <g id="Oval-5-+-OBD-device" sketch:type="MSLayerGroup" transform="translate(920.000000, 660.000000)">
+                <g id="OBD-device" transform="translate(44.000000, 43.000000)" sketch:type="MSShapeGroup">
+                    <path d="M9,94 L4.00263463,94 C1.79204057,94 0,92.2079118 0,90.0094919 L0,53.5241989 L0,8.00302406 C0,3.58307592 3.58387508,0 8.00981661,0 L103.990183,0 C108.413883,0 112,3.58510148 112,8.00302406 L112,53.5241989 L112,90.0094919 C112,92.2133887 110.218134,94 107.997365,94 L105,94 L105,115 L9,115 L9,94 Z" id="Rectangle-8" stroke="#24A1C7" stroke-width="3"></path>
+                    <path d="M88.0833333,33.3193521 L88.0833333,92.8172589 L23.9166667,92.8172589 L23.9166667,33.3193521 L23.9166667,27.3460674 C23.9166667,25.1392405 25.6998217,23.3502538 27.9184491,23.3502538 L84.0815509,23.3502538 C86.2916743,23.3502538 88.0833333,25.1421185 88.0833333,27.3460674 L88.0833333,33.3193521 Z" id="Rectangle-11" stroke="#24A1C7" stroke-width="2"></path>
+                    <path d="M10,92.5 L103.5,92.5" id="Path-19" stroke="#24A1C7" stroke-width="3"></path>
+                    <path d="M24.7916667,30 L87.2083333,30" id="Path-19" stroke="#24A1C7" stroke-width="2"></path>
+                    <path d="M0,12.5507614 L110.833333,12.5507614" id="Path-19" stroke="#24A1C7" stroke-width="3"></path>
+                    <path d="M24.7916667,35 L87.2083333,35" id="Path-19" stroke="#24A1C7" stroke-width="2"></path>
+                    <path d="M24.7916667,40 L87.2083333,40" id="Path-19" stroke="#24A1C7" stroke-width="2"></path>
+                    <rect id="Rectangle-13" stroke="#24A1C7" stroke-width="2" x="45.5" y="91.6497462" width="21" height="22.7664975"></rect>
+                    <path d="M49,69 L55.5,75.9999999 L62,69 L49,69 Z" id="Path-53" fill="#24A1C7"></path>
+                    <rect id="Rectangle-60" fill="#24A1C7" x="49" y="65" width="13" height="2"></rect>
+                    <rect id="Rectangle-60" fill="#24A1C7" x="49" y="61" width="13" height="2"></rect>
+                    <rect id="Rectangle-60" fill="#24A1C7" x="49" y="57.0837563" width="13" height="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

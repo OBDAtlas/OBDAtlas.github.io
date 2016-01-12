@@ -1,0 +1,28 @@
+---
+layout: page
+title: RESOURCES
+permalink: /resources/
+order: 10
+---
+
+<p>
+  Atlas is a great place to find information about your car's diagnostics system
+  and other electrical systems. All information on Atlas is open source and can be
+  edited/contributed to by anyone using a pull request on github. We hope you find
+  what you need below. If you dont find it today, you might find it some other day
+  thanks to some amazing collaborative minds out there.
+</p>
+<br>
+
+{% for p in site.pages %}
+  {% if p.parent == "resources" %}
+    <a href="{{ p.url | prepend: site.baseurl }}">
+      <h3>{{p.title}}</h3>
+    </a>
+    {% if p.description %}
+    <p>
+      {{ p.description }}
+    </p>
+    {% endif %}
+  {% endif %}
+{% endfor %}

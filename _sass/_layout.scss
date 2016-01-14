@@ -70,7 +70,7 @@
         top: 20px;
         float: right;
         right: $spacing-unit / 2;
-        background-color: $background-color;
+        background-color: #FFF;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -109,6 +109,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            line-height: 4.0em;
             color: #000;
             margin-left: 20px;
 

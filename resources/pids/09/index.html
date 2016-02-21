@@ -1,0 +1,23 @@
+---
+title: Mode 09
+layout: page
+parent: pids
+permalink: resources/pids/09.html
+description: Mode 09 is used for getting vehicle information like VIN number etc.
+---
+<p>
+  Through this mode you can request details about your vehicle which are not
+  related to its current state. You can get the vin number and information about
+  the ECU for instance.
+</p>
+
+{% for p in site.pages | sort: 'title' %}
+  {% if p.mode == 09 %}
+    <a href="{{ p.url | prepend: site.baseurl }}">
+      <h4 style="margin:0;">{{p.title}}</h4>
+    </a>
+    {% if p.description %}
+      {{ p.description }}
+    {% endif %}
+  {% endif %}
+{% endfor %}

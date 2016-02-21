@@ -1,0 +1,17 @@
+---
+title: Mode 03
+layout: page
+parent: pids
+permalink: resources/pids/03.html
+description: Mode 03 is used to request trouble codes from the ECU. You cannot provide any pid together with this mode. 3 codes per message frame.
+---
+
+<p>
+  Mode 03 is used to request trouble codes from the ECU. You cannot provide any
+  pid together with this mode. After querying this pid you will receive either
+  one response frame if only one or two DTCs have been logged or multiple frames
+  for three or more DTCs until all have been listed.<br>
+  <br>
+  A DTC (Diagnostic Trouble Code) consists of two bytes resulting in a five
+  character trouble code and can be deciphered using the table below.
+</p>

@@ -1,0 +1,47 @@
+---
+layout: blog
+title: BLOG
+permalink: /blog/
+order: 200
+---
+
+<div class="blog">
+
+  <div class="posts" style="width:100%;">
+    {% for post in site.posts %}
+      <div class="post">
+        {% if post.image %}
+        <div class="full-width-image" style="background-image:url({{ post.image }}); height:300px; background-color: #F5F5F5"></div>
+        {% endif %}
+        <div class="body">
+          <h2>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{post.author}} {{ post.date | date: "%b %-d, %Y" }}</span>
+          <p>
+            {{post.excerpt}}
+          </p>
+          <br />
+          <a href="{{ post.url }}" class="button rounded">Read more</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+<!--
+  <div class="small-posts">
+    <div class="post">
+      <div class="full-width-image" style="background-image:url(http://7-themes.com/data_images/out/16/6821833-tesla-wallpaper.jpg); height:100px; background-color: #F5F5F5"></div>
+      <div class="body">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </div>
+    </div>
+  </div>
+-->
+  <div class="clear">
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+</div>

@@ -9,10 +9,7 @@ Atlas is a great place to find information about your car's diagnostics system a
 This website is built using Jekyll and the theme is a customized version of the standard theme you get when installing Jekyll for the first time.
 Since all information on the site is open source you may do whatever you feel like with the OBD PID documents, Fault code descriptions etc. We would be very happy if you contributed back to us by making a pull request.
 
-
-
 ### Official website todo list
-
 * Fix flickering when reloading
 * Fix text on first page
 * Fix font size on "slogan"
